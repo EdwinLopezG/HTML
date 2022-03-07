@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciamos el pedido</title>
+</head>
+<body>
+
+    <H2>Formulario para la creación de tu pastel</H2>
+
+    <form action="Pedidoscte.js">
+        <label for="nombre">Introduce tu nombre por favor</label> <br>
+        <input type="text"id="nombre" name="nombre" placeholder="Nombre"><br> <br>
+    
+        <label for="tel1">Introduce tu numero de Teléfono</label><br>
+        <input type="tel" id="tel" name="tel" maxlength="10 placeholder="Celular"><br><br>
+    
+        <label for="correo1">Introduce tu correo</label><br>
+        <input type="email" id="correo" name="correo" placeholder="e-mail"><br><br>
+    
+        <label for="requerimentos">Introduce los requerimentos de tu pastel</label> <br>
+        <input type="text"id="requerimentos" name="requerimentos" placeholder="Descripcion gral de tu pastel"><br> <br>
+        
+        <label for="personas">Indica las cantidad de personas</label><br>
+        <input type="range" name="personas" id="personas"min="0"max="50"><br>
+        
+        <br>
+
+        <label for="fecha">Indica las fecha de entrega</label><br>
+        <input type="date" name="fecha" id="fecha"><br><br>
+        
+    
+        <h2>Selecciona la combinación de sabores que deseas en tu pastel</h2>
+    
+    <input type="checkbox" id="sabores1" name="sabores1" value="Chocolate">
+    <label for="sabores1">Chocolate</label> <br>
+    
+    <input type="checkbox" id="sabores2" name="sabores2" value="Fresa">
+    <label for="sabores2">Fresa</label> <br>
+    
+    <input type="checkbox" id="sabores3" name="sabores3" value="Vainilla">
+    <label for="sabores3">Vainilla</label> <br>
+    
+    <input type="checkbox" id="sabores4" name="sabores4" value="Nuez">
+    <label for="sabores4">Nuéz</label> <br>
+    
+    <input type="checkbox" id="sabores5" name="sabores5" value="Tres leches">
+    <label for="sabores5">Tres leches</label> <br> <br>
+    
+    <h2>Selecciona la combinación de decoraciones que deseas en tu pastel</h2>
+    
+    <input type="checkbox" id="decoracion1" name="decoracion1" value="Frutas">
+    <label for="decoracion1">Frutas</label> <br>
+    
+    <input type="checkbox" id="decoracion2" name="decoracion2" value="Chocolates">
+    <label for="decoracion2">Chocolates</label> <br>
+    
+    <input type="checkbox" id="decoracion3" name="decoracion3" value="Flores de betun">
+    <label for="decoracion3">Flores de betun</label> <br>
+    
+    <input type="checkbox" id="decoracion4" name="decoracion4" value="Mermelada">
+    <label for="decoracion4">Mermelada</label> <br>
+    
+    <input type="checkbox" id="decoracion5" name="decoracion5" value="Chantilly">
+    <label for="decoracion5">Chantilly</label> <br>
+    <br>
+    
+    
+    
+    
+    
+    
+    
+        <input type="reset">
+        <input type="submit"onclick="alert('Nos pondremos en contacto contigo')">
+    
+    <br>
+    <br>
+    </form>
+    
+
+    
+</body>
+</html>
